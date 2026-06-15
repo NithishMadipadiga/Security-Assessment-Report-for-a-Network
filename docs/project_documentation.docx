@@ -1,0 +1,69 @@
+# Security Assessment Report for a Network
+
+## 1. Abstract
+
+This project aims to assess the security of a computer network by identifying open ports and potential vulnerabilities. The assessment helps administrators improve network security and reduce risks.
+
+## 2. Introduction
+
+Network security assessment is the process of evaluating a network to identify weaknesses, vulnerabilities, and security risks.
+
+## 3. Objectives
+
+* Scan the network for open ports.
+* Identify possible vulnerabilities.
+* Analyze security risks.
+* Provide recommendations for improvement.
+
+## 4. Tools and Technologies
+
+* Python
+* Socket Programming
+* Nmap
+* Wireshark
+* Windows/Linux Operating System
+
+## 5. Methodology
+
+1. Select target IP address.
+2. Perform network scanning.
+3. Identify open ports.
+4. Analyze security risks.
+5. Generate assessment report.
+
+## 6. Implementation
+
+The project uses Python scripts to scan ports and generate security reports.
+
+## 7. Results
+
+Open ports detected:
+
+* Port 21 (FTP)
+* Port 22 (SSH)
+* Port 80 (HTTP)
+* Port 443 (HTTPS)
+
+## 8. Risk Analysis
+
+* FTP service may expose credentials.
+* HTTP traffic is unencrypted.
+* Unused ports increase attack surface.
+
+## 9. Recommendations
+
+* Disable unnecessary services.
+* Enable firewall protection.
+* Use HTTPS instead of HTTP.
+* Keep systems updated.
+
+## 10. Conclusion
+
+The network security assessment successfully identified open ports and potential security risks. The generated report helps improve overall network security.
+
+## 11. References
+
+* Python Documentation
+* Nmap Documentation
+* Wireshark Documentation
+* Network Security Fundamentals
